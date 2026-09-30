@@ -3,3 +3,7 @@ b = int(input("enter second number:"))
 
 print("addition =", a + b)
 print("subtraction = ", a - b)
+if b != 0:
+  print("Division =", a / b)  
+else:  
+  print("Division is not possible")  
